@@ -5,6 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+//Used the main class as a Service and Controller with only one get Endpoint to Dockerize the Application
 @SpringBootApplication
 @RestController
 public class SpringBootDockerApplication {
